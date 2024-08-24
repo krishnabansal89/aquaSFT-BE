@@ -5,13 +5,13 @@ const {
 
 
 
-import {MongoClient} from "mongodb"
+// import {MongoClient} from "mongodb"
 
-module.exports = {
-    connect: async () => {
-        const client = new MongoClient(DB_URL);
-        await client.connect();
-        return client;
-    }
-};
+// module.exports = {
+//     connect: async () => {
+//         const client = new MongoClient(DB_URL);
+//         await client.connect();
+//         return client;
+//     }
+// };
 

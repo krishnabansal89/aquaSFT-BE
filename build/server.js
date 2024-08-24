@@ -21,7 +21,7 @@ var PORT = process.env.PORT;
 // Instantiate an Express Application
 var app = express_1.default();
 mongoose_1.default
-    .connect("mongodb+srv://owner:IrYKuyywOeFxMNty@cluster0.53lew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", { useNewUrlParser: true, useUnifiedTopology: true })
+    .connect("mongodb+srv://owner:IrYKuyywOeFxMNty@cluster0.53lew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(function () {
     console.log("Connected to database");
 })
